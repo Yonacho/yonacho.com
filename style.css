@@ -88,7 +88,7 @@ body {
 .project-meta {
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
     flex-shrink: 0;
 }
 
@@ -118,7 +118,7 @@ body {
 .project-year {
     font-size: 14px;
     color: #909090;
-    font-weight: 350;
+    font-weight: 420;
 }
 
 /* Responsiveness */
