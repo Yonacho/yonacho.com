@@ -132,7 +132,7 @@ body {
     }
 
     .projects {
-        gap: 40px;
+        gap: 100px;
     }
 
     .project-image-wrapper {
