@@ -124,7 +124,7 @@ body {
 /* Responsiveness */
 @media (max-width: 768px) {
     .container {
-        padding: 10px 20px;
+        padding: 10px 10px;
     }
 
     .intro-text {
@@ -132,7 +132,7 @@ body {
     }
 
     .projects {
-        gap: 100px;
+        gap: 80px;
     }
 
     .project-image-wrapper {
