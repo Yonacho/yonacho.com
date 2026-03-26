@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Helvetica Neue";
+    color: #000;
+    background-color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
+
+.header {
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.intro-text {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+    letter-spacing: -0.2px;
+}
+
+.linkedin-link {
+    color: #909090;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.linkedin-link:hover {
+    color: #555;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-image-wrapper {
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.project-image {
+    width: calc(100% + 60px);
+    max-width: none;
+    margin: -30px;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: transform 0.4s ease-out;
+    will-change: transform;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.project-title {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+    color: #000;
+}
+
+.project-meta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-shrink: 0;
+}
+
+.company-logo {
+    height: 16px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.meta-logo {
+    height: 14px;
+}
+
+.amazon-logo {
+    height: 20px;
+}
+
+.samsung-logo {
+    height: 14px;
+}
+
+.sony-logo {
+    height: 10px;
+}
+
+.project-year {
+    font-size: 14px;
+    color: #909090;
+    font-weight: 350;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px 20px;
+    }
+
+    .intro-text {
+        font-size: 16px;
+    }
+
+    .projects {
+        gap: 60px;
+    }
+
+    .project-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .project-meta {
+        width: 100%;
+        justify-content: flex-start;
+    }
+}
